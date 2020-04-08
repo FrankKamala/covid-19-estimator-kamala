@@ -1,5 +1,6 @@
 const covid19ImpactEstimator = (data) => {
-//initial
+//initial To estimate the number of infected people 30 days from now, note that currentlyInfected doubles
+//every 3 days, so you'd have to multiply it by a factor of 2.
 
 const input = data;
 let periodDays = 0;
