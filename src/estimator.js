@@ -7,6 +7,7 @@ let periodDays = 0;
 let estimateNumber = currentlyInfected*1024;
 impact.currentlyInfected = data.reported*10;
 severeImpact.currentlyInfected = data.reported*50;
+//week/ days/moonths
 
 impact.infectionsByRequestedTime = impact.currentlyInfected*estimateNumber;
 severeImpact.infectionsByRequestedTime = severeImpact.currentlyInfected*estimateNumber;
