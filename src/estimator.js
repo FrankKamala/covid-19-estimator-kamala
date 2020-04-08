@@ -8,6 +8,7 @@ const estimateNumber = currentlyInfected*1024;
 impact.currentlyInfected = data.reported*10;
 severeImpact.currentlyInfected = data.reported*50;
 //  week/ days/moonths
+periodDays=estimateNumber = data.days * 7;
 
 impact.infectionsByRequestedTime = impact.currentlyInfected*estimateNumber;
 severeImpact.infectionsByRequestedTime = severeImpact.currentlyInfected*estimateNumber;
